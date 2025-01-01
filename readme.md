@@ -1,4 +1,4 @@
-# Kryds og Bolle V2  
+# TactiGrids  
 
 A modern reimagining of the classic Tic-Tac-Toe with exciting twists like **Four in a Row**, unique piece abilities, and advanced strategies.  
 
