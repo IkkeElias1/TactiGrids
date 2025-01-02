@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kryds og Bolle V2 - TactiGrids</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Kryds og Bolle V2 - TactiGrids</h1>
+    <div class="container">
+      <!-- Spillebræt -->
+      <div id="board"></div>
+
+      <!-- Sidebar til at vise nuværende hånd -->
+      <div class="sidebar">
+        <h2>Aktuel spiller: <span id="current-player"></span></h2>
+        <h3>Din hånd:</h3>
+        <ul id="player-hand"></ul>
+        <button id="reset-btn">Nulstil bræt</button>
+      </div>
+    </div>
+
+    <!-- Indlæs main.js som et ES Module -->
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
